@@ -1,0 +1,42 @@
+﻿@using WebTester.Controllers
+
+@model ViewPage
+
+@{
+	var previousTime = QuizController.SessionResult.StartDate;
+}
+
+<div>
+	<h3>Résultat</h3>
+	@foreach (var question in QuizController.SessionQuiz.Questions)
+	{
+		var result = QuizController.SessionResult.Questions.First(r => r.Id_Question == question.Id_Question);
+			
+		<fieldset class="question">
+			<legend>@question.Id_Question. @question.Description</legend>
+			<span class="time">Répondu en: @Math.Round((result.AnswerDate - previousTime).TotalSeconds, 2)sec</span>
+			<ul>
+				@foreach (var answer in question.Answers.OrderByDescending(a => a.IsCorrect))
+				{
+					if (result.Id_Answers.Contains(answer.Id_Answer) && answer.IsCorrect)
+					{
+						<li style="font-weight: bold;color: green;">@answer.Description</li>
+					}
+					else if (result.Id_Answers.Contains(answer.Id_Answer) && !answer.IsCorrect)
+					{
+						<li style="font-weight: bold;color: red;text-decoration: line-through;font-style: italic;">@answer.Description</li>
+					}
+					else if (answer.IsCorrect)
+					{
+						<li style="font-weight: bold;font-style: italic;">@answer.Description</li>
+					}
+				}
+			</ul>
+		</fieldset>
+	 
+		previousTime = result.AnswerDate;
+	}
+</div>
+<script>
+	$('.quiz-controls').hide();
+</script>

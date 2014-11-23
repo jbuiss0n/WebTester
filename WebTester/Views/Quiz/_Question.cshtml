@@ -1,0 +1,20 @@
+﻿@model WebTester.Models.QuizQuestion
+
+<fieldset id="question-@Model.Id_Question" class="question">
+	<legend>@Model.Description</legend>
+	<input type="hidden" name="Question" value="@Model.Id_Question" />
+	<ul>
+		@foreach (var answer in Model.Answers)
+		{
+			<li class="answer">
+				<label for="answer-@answer.Id_Answer">
+					<input id="answer-@answer.Id_Answer" type="checkbox" name="Answer" value="@answer.Id_Answer" />
+					@answer.Description
+				</label>
+			</li>
+		}
+	</ul>
+</fieldset>
+<script>
+	$('.quiz-controls').show();
+</script>

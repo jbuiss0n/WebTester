@@ -1,0 +1,33 @@
+﻿@model WebTester.Models.QuizQuestion
+
+@{
+    ViewBag.Title = "Play";
+}
+
+<div class="quiz">
+	@using (Ajax.BeginForm("Answer", new AjaxOptions { HttpMethod = "POST", InsertionMode = InsertionMode.Replace, UpdateTargetId = "question-container" }))
+	{
+		<div id="question-container">
+			@Html.Partial("_Question", Model)
+		</div>
+	 
+		<div class="quiz-controls">
+			<div class="quiz-controls-left">
+				<a href="#" class="valid"><span>Question suivante</span></a>
+			</div>
+			<div class="clear-fix"></div>
+		</div>
+	}
+</div>
+
+@section scripts {
+	 @Scripts.Render("~/bundles/jqueryval")
+	<script>
+		$(document).ready(function () {
+			$('.quiz-controls .valid').click(function () {
+				$('.quiz-controls').hide();
+				$('.quiz form').submit();
+			});
+		});
+	</script>
+}

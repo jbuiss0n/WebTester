@@ -1,0 +1,26 @@
+﻿@model WebTester.Data.Token
+
+@{
+    ViewBag.Title = "Création d'un nouveau token";
+}
+
+@if (Model != null)
+{
+	<h2>Le token pour @Model.Description est valable 24h (jusqu'au @Model.dExpire) !</h2>
+	<strong>http://@(Request.Url.Host)@Url.Action("Index", "Quiz", new { uid = Model.UID} )</strong>
+}
+else
+{
+	using (Html.BeginForm())
+	{
+		<fieldset>
+			<legend>Création d'un nouveau token pour le Quiz .NET</legend>
+			<div>
+				<label>Description : <input type="text" name="description" maxlength="255" placeholder="Prénom Nom - Fonction - Société" /></label>
+			</div>
+			<div>
+				<input type="submit" value="créer" />
+			</div>
+		</fieldset>
+	}
+}

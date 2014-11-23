@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<quiz>
+	<questions>
+		<question id="1">
+			<description>Que signifie POO ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">Progam Object Oriented</answer>
+				<answer id="2" iscorrect="true">Programmation Orienté Objet</answer>
+				<answer id="3" iscorrect="false">Partie Obscure Oublié</answer>
+				<answer id="4" iscorrect="false">Partition Of Objects</answer>
+			</answers>
+		</question>
+		<question id="2">
+			<description>Quel est l'intrus ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">Singleton</answer>
+				<answer id="2" iscorrect="false">MVC</answer>
+				<answer id="3" iscorrect="false">Factory</answer>
+				<answer id="4" iscorrect="true">Abstract</answer>
+			</answers>
+		</question>
+		<question id="3">
+			<description>Quel est l’intrus ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">StructureMap</answer>
+				<answer id="2" iscorrect="false">Unity</answer>
+				<answer id="3" iscorrect="false">Autofac</answer>
+				<answer id="4" iscorrect="true">Mapper</answer>
+			</answers>
+		</question>
+		<question id="4">
+			<description>En Asp.Net de quelle classe hérite une WebForm ?</description>
+			<answers>
+				<answer id="1" iscorrect="true">System.Web.UI.Page</answer>
+				<answer id="2" iscorrect="false">System.Web.Page</answer>
+				<answer id="3" iscorrect="false">System.Web.Form</answer>
+				<answer id="4" iscorrect="false">System.Web.UI.Form</answer>
+			</answers>
+		</question>
+		<question id="5">
+			<description>En Asp.Net MVC 4, quelle est l'url de la route par défaut ?</description>
+			<answers>
+				<answer id="1" iscorrect="true">/Home/Index</answer>
+				<answer id="2" iscorrect="false">/Controller/Action</answer>
+				<answer id="3" iscorrect="false">/Index/Home</answer>
+				<answer id="4" iscorrect="false">/Controller/Action/id</answer>
+			</answers>
+		</question>
+		<question id="6">
+			<description>Comment détruit on définitivement une Session Asp.Net ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">Session.Kill()</answer>
+				<answer id="2" iscorrect="true">Session.Abandon()</answer>
+				<answer id="3" iscorrect="false">Session.Close()</answer>
+				<answer id="4" iscorrect="false">Session.Clear()</answer>
+			</answers>
+		</question>
+		<question id="7">
+			<description>Quelle(s) affirmation(s) s’applique à l’encapsulation ?</description>
+			<answers>
+				<answer id="1" iscorrect="true">Elle cache l’implémentation d’une méthode</answer>
+				<answer id="2" iscorrect="true">Elle cache les informations non essentiel d’une classe</answer>
+				<answer id="3" iscorrect="false">Elle interdit la surcharge</answer>
+				<answer id="4" iscorrect="false">C’est un concept de polymorphisme</answer>
+			</answers>
+		</question>
+		<question id="8">
+			<description>Qu’est-ce que l’AOP ?</description>
+			<answers>
+				<answer id="1" iscorrect="true">Aspect Oriented Programming</answer>
+				<answer id="2" iscorrect="false">Aspect Object Programming</answer>
+				<answer id="3" iscorrect="false">Aggregate Object Property</answer>
+				<answer id="4" iscorrect="false">Aggregate Oriented Property</answer>
+			</answers>
+		</question>
+		<question id="9">
+			<description>En .Net (VB ou C#), il est possible :</description>
+			<answers>
+				<answer id="1" iscorrect="false">Qu’une classe fille hérite de plusieurs classe mères</answer>
+				<answer id="2" iscorrect="true">Qu’une classe fille implémente plusieurs interfaces</answer>
+				<answer id="3" iscorrect="false">D’instancier une classe abstract à condition qu’au moins une méthode ne soit pas abstract</answer>
+				<answer id="4" iscorrect="true">Qu’une classe fille hérite d’une classe mère et implémente une interface</answer>
+			</answers>
+		</question>
+		<question id="10">
+			<description>What’s the differences between an Interface and an Abastract class ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">None</answer>
+				<answer id="2" iscorrect="false">You can’t instanciate an Interface</answer>
+				<answer id="3" iscorrect="true">You can implement methods in an Abstract class</answer>
+				<answer id="4" iscorrect="true">Methods defined in an Interface can’t be implemented as protected or private</answer>
+			</answers>
+		</question>
+		<question id="11">
+			<description>Qu’elle est la suite logique : aaaiccjje...</description>
+			<answers>
+				<answer id="1" iscorrect="true">...kkk</answer>
+				<answer id="2" iscorrect="false">...kff</answer>
+				<answer id="3" iscorrect="false">...kkf</answer>
+				<answer id="4" iscorrect="false">...kfl</answer>
+			</answers>
+		</question>
+		<question id="12">
+			<description>Quel est le nom de la machine virtuelle .NET ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">Common Intermediate Language</answer>
+				<answer id="2" iscorrect="false">Common Language Infrastructure</answer>
+				<answer id="3" iscorrect="true">Common Language Runtime</answer>
+				<answer id="4" iscorrect="false">Microsoft Intermediate Language</answer>
+			</answers>
+		</question>
+		<question id="13">
+			<description>Lequel de ces rôles a le Garbage Collector ?</description>
+			<answers>
+				<answer id="1" iscorrect="true">Il libère l'espace mémoire sur la pile</answer>
+				<answer id="2" iscorrect="false">Il supprime les fichiers temporaires créés par le Framework .NET</answer>
+				<answer id="3" iscorrect="true">Il libère la mémoire occupée par les objets non référencés</answer>
+				<answer id="4" iscorrect="false">Il ferme les connexions de base de données</answer>
+			</answers>
+		</question>
+		<question id="14">
+			<description>A quoi servent les API fournies par Code Contracts ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">Contrats entre communication inter-processus</answer>
+				<answer id="2" iscorrect="true">Fournir un moyen de spécifier les préconditions, postconditions et objets invariants dans le code</answer>
+				<answer id="3" iscorrect="false">Implémentation explicite d'interface contractuelles</answer>
+				<answer id="4" iscorrect="false">Vérification à la volée des contrats HTTPS sur IIS</answer>
+			</answers>
+		</question>
+		<question id="15">
+			<description>Quelle est la bonne manière de déclarer un tableau en JavaScript ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">var myArray = new Array(1:"Element 1",2:"Element 2",3:"Element 3")</answer>
+				<answer id="2" iscorrect="false">var myArray = new Array[1="Element 1",2="Element 2",3="Element 3"]</answer>
+				<answer id="3" iscorrect="true">var myArray = new Array("Element 1","Element 2","Element 3")</answer>
+				<answer id="4" iscorrect="false">var myArray = new Array:"Element 1":"Element 2":"Element 3" </answer>
+			</answers>
+		</question>
+		<question id="16">
+			<description>Quel signe jQuery utilise-t-il comme un raccourci pour jQuery  ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">£</answer>
+				<answer id="2" iscorrect="true">$</answer>
+				<answer id="3" iscorrect="false">§</answer>
+				<answer id="4" iscorrect="false">Aucun</answer>
+			</answers>
+		</question>
+		<question id="17">
+			<description>Quelle fonction jQuery est utilisée pour prévenir l'exécution du code, avant que le chargement du document ne finisse ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">jQuery(body).onload()</answer>
+				<answer id="2" iscorrect="true">jQuery(document).ready()</answer>
+				<answer id="3" iscorrect="false">jQuery(document).load()</answer>
+				<answer id="4" iscorrect="false">jQuery('#document').ready()</answer>
+			</answers>
+		</question>
+		<question id="18">
+			<description>Lequel des selecteurs jQuery suivant n’est pas valide ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">:visible</answer>
+				<answer id="2" iscorrect="false">:animated</answer>
+				<answer id="3" iscorrect="true">:draggable</answer>
+				<answer id="4" iscorrect="false">:first</answer>
+			</answers>
+		</question>
+		<question id="19">
+			<description>En SQL, quand utilise t-on “Select Into” au lieu de “Insert Into” ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">Quand on veux insérer des éléments dans une nouvelle table vide</answer>
+				<answer id="2" iscorrect="false">Quand on veux insérer des éléments dans une table qui contient déjà des éléments</answer>
+				<answer id="3" iscorrect="true">Quand on veux créer une nouvelle table à partir des éléments selectionnés</answer>
+				<answer id="4" iscorrect="false">Il n’y à aucune différence</answer>
+				<answer id="4" iscorrect="false">La syntaxe “Select Into” n’existe pas</answer>
+			</answers>
+		</question>
+		<question id="20">
+			<description>What database object should you use to manipulate data in a set on a row-by-row basis ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">Stored procedure</answer>
+				<answer id="2" iscorrect="false">User defined function</answer>
+				<answer id="3" iscorrect="true">Cursor</answer>
+				<answer id="4" iscorrect="false">Trigger</answer>
+			</answers>
+		</question>
+		<question id="21">
+			<description>Laquelle des déclarations suivantes est une méthode d'extension valable ?</description>
+			<answers>
+				<answer id="1" iscorrect="true">public static int Add(this int a, int b) { return a + b; } </answer>
+				<answer id="2" iscorrect="false">public int Add(this int a, int b) { return a + b; } </answer>
+				<answer id="3" iscorrect="false">public static int Add(this int a, this int b) { return a + b; } </answer>
+				<answer id="4" iscorrect="false">public int Add(this int a, this int b) { return a + b; } </answer>
+			</answers>
+		</question>
+		<question id="22">
+			<description>Quels éléments sont obligatoires dans un document XHTML ?</description>
+			<answers>
+				<answer id="1" iscorrect="false"><![CDATA[<!DOCTYPE> et <html>]]></answer>
+				<answer id="2" iscorrect="false"><![CDATA[<!DOCTYPE>, <html> et <head>]]></answer>
+				<answer id="3" iscorrect="false"><![CDATA[<!DOCTYPE>, <html>, <head>, et <body>]]></answer>
+				<answer id="4" iscorrect="true"><![CDATA[<!DOCTYPE>, <html>, <head>, <body>, et <title>]]></answer>
+			</answers>
+		</question>
+		<question id="23">
+			<description>Quel attribut correspond à une infobulle affichée au survol ? ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">alt</answer>
+				<answer id="2" iscorrect="true">title</answer>
+				<answer id="3" iscorrect="false">src</answer>
+				<answer id="4" iscorrect="false">desc</answer>
+				<answer id="4" iscorrect="false">longdesc</answer>
+			</answers>
+		</question>
+		<question id="24">
+			<description>En CSS, comment doit-ont déclarer une div pour qu’elle soit centrer horizontalement ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">div { margin: none; width: auto; }</answer>
+				<answer id="2" iscorrect="true">div { margin: auto; width: 500px; }</answer>
+				<answer id="3" iscorrect="false">div { margin: 5%; width: 90%; vertical-align: center; }</answer>
+				<answer id="4" iscorrect="false">div { margin: auto; width: 100%; text-align: center; }</answer>
+			</answers>
+		</question>
+		<question id="25">
+			<description>Considérant cette déclaration CSS ‘div#main .wrapper h1.title’, quel élément aura un fond rouge ?</description>
+			<answers>
+				<answer id="1" iscorrect="false">Le titre de la page nommé “main” contenant une div avec la classe “wrapper”</answer>
+				<answer id="2" iscorrect="false">La première div ayant pour id “main”, pour classe “wrapper” et contenant une titre h1</answer>
+				<answer id="3" iscorrect="true">Toutes les balises h1 ayant pour classe “title” contenu dans un élément ayant pour class “wrapper”, lui même contenu dans une div ayant pour id “main”</answer>
+				<answer id="4" iscorrect="false">La première div  ayant pour classe “main” contenant un élément ayant pour class “wrapper”, contenant lui même un h1 ayant pour class “title”</answer>
+			</answers>
+		</question>
+	</questions>
+</quiz>
